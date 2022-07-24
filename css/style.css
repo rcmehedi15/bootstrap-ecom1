@@ -1,0 +1,171 @@
+body,html{
+    
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1,h5{
+    text-transform: uppercase;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-md{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    
+    margin-bottom: 50px;
+}
+ul{
+    text-transform: uppercase;
+}
+
+.imglogo{
+    width: 25%;
+}
+.homecl{
+    color: #18a957;
+}
+.height{
+    height: 650px;
+    width: 650px;
+}
+.head{
+    display: inline-block;
+    top: 50px;
+}
+.carousel-caption1 {
+    position: absolute;
+    right: 25%;
+    bottom: 13rem;
+    left: 13%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+a:hover{
+    color: rgb(245, 235, 235);
+}
+.buy-btn{
+    padding: 6px;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color:#324239;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+}
+.buy-btn:hover{
+    background-color: #f15858;
+    color: #324239;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+.cat1{
+   background-color: #78f2e0 ;
+}
+.cat2{
+    background-color:orchid 
+ }
+ .cat3{
+    background-color: #fced8b;
+ }
+ .catagories h1{
+    color: #252323;
+ }
+ .catagories img{
+    width: 100px;
+ }
+ .card{
+   box-shadow: 5px 5px 10px  #dcdeda;
+   border-radius: 5px;
+  
+ }
+ .card-footer{
+    background-color: white;
+    border-top: none;
+ }
+/* Buy Now section */
+.buy-btn-sec{
+    padding: 6px;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #33a062;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+}
+.buy-btn-sec:hover{
+    background-color: #f15858;
+    color: #324239;
+    transition: 0.3s;
+}
+.bg{
+    background-color: #33a062;
+    color: white;
+    border-radius: 10px;
+}
+#contact{
+    height: 300px;
+}
+.br{
+    background-color: #fff;
+    border: none;
+    
+}
+.br:hover{
+    
+    color: #fff;
+}
+#contact H6{
+    color: #d2dfd3;
+    font-weight: 400;
+}
+
+/* footer section */
+
+footer p{
+    text-align: center;
+    color:#666;
+    margin: 0 10 ;
+    padding-bottom: 25px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #11A651;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+    z-index: 999 ;
+    display: none;
+}
+.back-to-top i{
+    width: 40px;
+    height: 40px;
+    background-color: #11A651;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+
+}
